@@ -1,0 +1,28 @@
+1.
+print("Total number of unique words:", len(word_counts)) # 쓰인 단어 중복제외하고 쓰인 갯수
+print("Number of words we will use:", len(vocab_to_int))
+print("Percent of words we will use: {}%".format(usage_ratio))
+
+Total number of unique words: 34528
+Number of words we will use: 22901
+Percent of words we will use: 66.33%
+
+
+2.
+Total number of words in headlines: 727325
+Total number of UNKs in headlines: 11631
+Percent of words that are UNK: 1.6%
+
+
+3.
+# Compare lengths to ensure they match
+print(len(sorted_summaries))
+print(len(sorted_texts))
+
+8809
+8809
+
+
+4.
+The shortest text length: 3
+The longest text length: 45
